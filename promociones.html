@@ -2,80 +2,151 @@
 <html lang="es">
 
 <head>
-<meta charset="UTF-8">
-<title>Promociones</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones  Fogón Negro</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
-
-<header>
-
-<img src="img/logo.png" alt="Logo Fogón Negro" width="120">
-
-<!--Abner Díaz Nav-->
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    
-    <a class="navbar-brand" href="index.html">Fogón Negro</a>
 
-    <button class="navbar-toggler" type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo.png" alt="Logo Fogón Negro" height="40">
+        Fogón Negro </a>        
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" target="_blank" href="index.html">Homepage</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="quienes-somos.html">¿Quiénes somos?</a></li>
+            <li class="nav-item"><a class="nav-link active" href="promociones.html">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="menu.html">Menú</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="ubicación.html">Ubicación</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr>
+  </header>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="index.html">Homepage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="quienes-somos.html">¿Quiénes somos?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" target="_blank" href="promociones.html">Promociones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="menu.html">Menú</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="galeria.html">Galería</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" target="_blank" href="ubicación.html">Ubicación</a>
-        </li>
-      </ul>
+  <div class="container my-5">
+
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold">🔥 Promociones</h1>
+      <p class="text-muted fs-5">Aprovecha nuestras ofertas especiales cada día de la semana.</p>
     </div>
 
+    <!-- PROMOS SEMANALES -->
+    <section class="mb-5">
+      <h2 class="section-title border-bottom border-warning pb-2 mb-4">📅 Promociones Semanales</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-warning promo-card">
+            <img src="img/promociones/promo-lunes.jpg" class="card-img-top" alt="2x1 en pupusas los lunes">
+            <div class="card-body text-center">
+              <span class="badge bg-dark mb-2">LUNES</span>
+              <h5 class="card-title fw-bold">2×1 en Pupusas</h5>
+              <p class="card-text text-muted">Paga una y llévate dos. Aplica para toda la variedad de pupusas del menú. ¡Trae a alguien especial!</p>
+              <p class="text-warning fw-bold fs-5">Válido todos los lunes</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-warning promo-card">
+            <img src="img/promociones/promo-miercoles.jpg" class="card-img-top" alt="20% descuento mariscos">
+            <div class="card-body text-center">
+              <span class="badge bg-dark mb-2">MIÉRCOLES</span>
+              <h5 class="card-title fw-bold">20% off en Mariscos</h5>
+              <p class="card-text text-muted">Todos los miércoles disfruta un 20% de descuento en cualquier plato de mariscos. Camarones, pescado y más.</p>
+              <p class="text-warning fw-bold fs-5">Válido todos los miércoles</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-warning promo-card">
+            <img src="img/promociones/promo-familiar.jpg" class="card-img-top" alt="Combo familiar">
+            <div class="card-body text-center">
+              <span class="badge bg-dark mb-2">VIERNES – DOMINGO</span>
+              <h5 class="card-title fw-bold">Combo Familiar</h5>
+              <p class="card-text text-muted">Carne asada + pollo asado + 6 pupusas + arroz + ensalada + 4 bebidas. ¡Todo por solo $20!</p>
+              <p class="text-danger fw-bold fs-5">$20.00 🔥</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROMOS ESPECIALES -->
+    <section class="mb-5">
+      <h2 class="section-title border-bottom border-warning pb-2 mb-4">⭐ Promociones Especiales</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow promo-card">
+            <img src="img/promociones/promo-cumple.jpg" class="card-img-top" alt="Descuento de cumpleaños">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🎂 Promoción Cumpleaños</h5>
+              <p class="card-text text-muted">
+                ¿Es tu cumpleaños? Muéstranos tu DUI o documento oficial y obtén un <strong>postre gratis</strong>
+                y un <strong>15% de descuento</strong> en tu consumo total. ¡Celébralo con nosotros!
+              </p>
+              <span class="badge bg-warning text-dark">Postre gratis + 15% off</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow promo-card">
+            <img src="img/promociones/promo-estudiante.jpg" class="card-img-top" alt="Descuento estudiante">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🎓 Descuento Estudiantil</h5>
+              <p class="card-text text-muted">
+                Presenta tu carnet universitario o de bachillerato vigente y obtén un <strong>10% de descuento</strong>
+                en tu orden. Aplica de lunes a viernes en horario de almuerzo (11 a.m. – 2 p.m.).
+              </p>
+              <span class="badge bg-warning text-dark">10% off con carnet</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HAPPY HOUR -->
+    <section class="bg-dark text-white rounded-4 p-5 mb-5 text-center">
+      <h2 class="text-warning fw-bold mb-3">🍺 Happy Hour</h2>
+      <p class="fs-5">Todos los días de <strong>4:00 p.m. a 6:00 p.m.</strong></p>
+      <p class="text-light">Cervezas nacionales a <strong class="text-warning">$1.50</strong> y frescos naturales a <strong class="text-warning">$1.00</strong>. ¡El mejor momento para relajarte después del trabajo!</p>
+      <img src="img/promociones/happy-hour.jpg" class="img-fluid rounded mt-3" style="max-height:250px; object-fit:cover;" alt="Happy Hour en Fogón Negro">
+    </section>
+
+    <p class="text-muted text-center small">
+      * Las promociones no son acumulables entre sí. Sujetas a disponibilidad.
+      Consulta condiciones al momento de tu visita.
+    </p>
+
   </div>
-</nav>
 
-<hr>
+  <footer class="mt-auto">
+    <hr>
+    <p class="text-center">© 2026 Restaurante Fogón Negro</p>
+    <p class="text-center">San Salvador, El Salvador</p>
+  </footer>
 
-</header>
-
-<h1>Promociones</h1>
-
-<ul>
-<li>2x1 en pupusas todos los lunes</li>
-<li>20% de descuento en mariscos los miércoles</li>
-<li>Combo familiar por $20</li>
-</ul>
-
-<footer>
-
-<hr>
-
-<p>© 2026 Restaurante Fogón Negro</p>
-<p>San Salvador, El Salvador</p>
-
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -2,100 +2,182 @@
 <html lang="es">
 
 <head>
-<meta charset="UTF-8">
-<title>Quiénes Somos</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Quiénes Somos?  Fogón Negro</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
-
-<header>
-
-<img src="img/logo.png" alt="Logo Fogón Negro" width="120">
-<!--Abner Díaz Nav-->
 <body class="d-flex flex-column min-vh-100">
+
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    
-    <a class="navbar-brand" href="index.html">Fogón Negro</a>
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="img/logo.png" alt="Logo Fogón Negro" height="40">
+        Fogón Negro </a>        
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" target="_blank" href="index.html">Homepage</a></li>
+            <li class="nav-item"><a class="nav-link active" href="quienes-somos.html">¿Quiénes somos?</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="promociones.html">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="menu.html">Menú</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="ubicación.html">Ubicación</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr>
+  </header>
 
-    <button class="navbar-toggler" type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container my-5">
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="index.html">Homepage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" target="_blank" href="quienes-somos.html">¿Quiénes somos?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="promociones.html">Promociones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="menu.html">Menú</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="galeria.html">Galería</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" target="_blank" href="ubicación.html">Ubicación</a>
-        </li>
-      </ul>
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold">¿Quiénes Somos?</h1>
+      <p class="text-muted fs-5">Conócenos: nuestra historia, nuestros valores y la pasión detrás de cada plato.</p>
     </div>
 
+    <!-- NUESTRA HISTORIA -->
+    <section class="mb-5">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <h2 class="section-title">🔥 Nuestra Historia</h2>
+          <p class="fs-5">
+            <strong>Fogón Negro</strong> nació en el año 2010 en el corazón de San Salvador, impulsado por la
+            visión de la familia Molina, quienes desde pequeños crecieron rodeados del aroma del fogón de leña
+            en la cocina de su abuela.
+          </p>
+          <p>
+            Lo que comenzó como un pequeño comedor de barrio con tres mesas y un menú de cuatro platillos,
+            hoy se ha convertido en uno de los restaurantes más queridos de la capital salvadoreña, reconocido
+            por mantener viva la tradición culinaria con técnicas artesanales y sabores que evocan el campo y la
+            infancia.
+          </p>
+          <p>
+            El nombre <em>"Fogón Negro"</em> hace honor a ese fogón de piedra que marcó a fuego (literalmente)
+            la memoria gastronómica de nuestra familia fundadora, y que hoy es el corazón de nuestra cocina.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/historia-restaurante.jpg" border-radius: 20px 20px 20px 20px class="img-fluid rounded shadow"
+            alt="Historia del restaurante Fogón Negro">
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-5">
+
+    <!-- MISIÓN, VISIÓN, VALORES -->
+    <section class="mb-5">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card border-warning h-100 shadow-sm p-3">
+            <div class="card-body text-center">
+              <div style="font-size:2.5rem;">🎯</div>
+              <h3 class="fw-bold mt-2">Misión</h3>
+              <p class="text-muted">
+                Brindar una experiencia gastronómica auténtica y de alta calidad, ofreciendo platos de la
+                cocina salvadoreña tradicional preparados con ingredientes frescos, técnicas artesanales y
+                un servicio cálido que haga sentir al cliente como en casa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-warning h-100 shadow-sm p-3">
+            <div class="card-body text-center">
+              <div style="font-size:2.5rem;">🌟</div>
+              <h3 class="fw-bold mt-2">Visión</h3>
+              <p class="text-muted">
+                Ser el restaurante salvadoreño más reconocido a nivel nacional por su autenticidad, excelencia
+                culinaria y compromiso con las tradiciones gastronómicas del país, expandiéndonos hacia nuevas
+                regiones sin perder nunca nuestra esencia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-warning h-100 shadow-sm p-3">
+            <div class="card-body text-center">
+              <div style="font-size:2.5rem;">💛</div>
+              <h3 class="fw-bold mt-2">Valores</h3>
+              <ul class="list-unstyled text-muted mt-2">
+                <li>🔥 <strong>Calidad:</strong> Solo lo mejor llega a tu mesa.</li>
+                <li>🌽 <strong>Tradición:</strong> Recetas que respetan el pasado.</li>
+                <li>🤝 <strong>Compromiso:</strong> Con nuestros clientes y la comunidad.</li>
+                <li>🫙 <strong>Honestidad:</strong> Ingredientes naturales, sin trucos.</li>
+                <li>🏡 <strong>Familia:</strong> Cada cliente es parte de nuestra familia.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="mb-5">
+      <h2 class="section-title text-center mb-4">👨‍🍳 Nuestro Equipo</h2>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-3 text-center">
+          <img src="img/quienes-somos/chef-principal.jpg" class="img-fluid rounded-circle shadow mb-3"
+            alt="Chef Principal" style="width:160px; height:160px; object-fit:cover;">
+          <h5 class="fw-bold">Carlos Molina</h5>
+          <p class="text-muted small">Chef Principal & Fundador<br>20 años de experiencia en cocina salvadoreña.</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img src="img/quienes-somos/chef-reposteria.jpg" class="img-fluid rounded-circle shadow mb-3"
+            alt="Chef de Repostería" style="width:160px; height:160px; object-fit:cover;">
+          <h5 class="fw-bold">Ana Flores</h5>
+          <p class="text-muted small">Chef de Repostería<br>Especialista en postres y dulces tradicionales.</p>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img src="img/quienes-somos/gerente.jpg" class="img-fluid rounded-circle shadow mb-3"
+            alt="Gerente del restaurante" style="width:160px; height:160px; object-fit:cover;">
+          <h5 class="fw-bold">Roberto Molina</h5>
+          <p class="text-muted small">Gerente General<br>Garantiza que cada visita sea memorable.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- IMAGEN DEL LOCAL -->
+    <section class="text-center mb-4">
+      <h2 class="section-title mb-3">Nuestro Espacio</h2>
+      <p class="text-muted mb-4">Un ambiente rústico, cálido y acogedor pensado para que te sientas como en casa.</p>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <img src="img/quienes-somos/local-exterior.jpg" class="img-fluid rounded shadow" alt="Exterior del local">
+        </div>
+        <div class="col-md-6">
+          <img src="img/quienes-somos/local-interior.jpg" class="img-fluid rounded shadow" alt="Interior del local">
+        </div>
+      </div>
+    </section>
+
   </div>
-</nav>
 
-<hr>
+  <footer class="mt-auto">
+    <hr>
+    <p class="text-center">© 2026 Restaurante Fogón Negro</p>
+    <p class="text-center">San Salvador, El Salvador</p>
+  </footer>
 
-</header>
-
-<h1>Quiénes Somos</h1>
-
-<h2>Nuestra Historia</h2>
-
-<p>
-Fogón Negro nace con el objetivo de rescatar los sabores tradicionales
-de la cocina salvadoreña.
-</p>
-
-<h2>Misión</h2>
-
-<p>
-Brindar una experiencia gastronómica de alta calidad.
-</p>
-
-<h2>Visión</h2>
-
-<p>
-Ser un restaurante reconocido por su autenticidad y excelencia.
-</p>
-
-<h2>Valores</h2>
-
-<ul>
-<li>Calidad</li>
-<li>Tradición</li>
-<li>Compromiso</li>
-</ul>
-
-<footer>
-
-<hr>
-
-<p>© 2026 Restaurante Fogón Negro</p>
-<p>San Salvador, El Salvador</p>
-
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
